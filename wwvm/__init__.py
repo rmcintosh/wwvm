@@ -10,7 +10,7 @@ import urllib3
 
 WWVM_USER = "tunnel"
 WWVM_HOST = "wwvm.net"
-WWVM_URL = "http://{}".format(WWVM_HOST)
+WWVM_URL = "https://{}".format(WWVM_HOST)
 
 
 def set_up_tunnel(user, host, socket_path, private_key_path, local_port, remote_port):
